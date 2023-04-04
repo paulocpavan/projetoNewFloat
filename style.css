@@ -1,0 +1,46 @@
+:root {
+    --cinza: #aaa;
+    --vermelha: #e93d50;
+    --vermelha-escura: #af303f;
+    --branca: #fff;
+    --luz: rgb(229, 255, 0);
+  }
+
+body{
+    background: linear-gradient(90deg, rgb(5, 180, 28) 0%, rgb(51, 92, 54)100%);
+    font-family: 'Montserrat', sans-serif;
+}
+.imagem-header{
+    padding: 60px;
+    width: 30%;
+    height: 10%;
+    margin: 150px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.principal{
+    position: relative;
+    width: 1500px;
+    right: 200px;
+}
+nav{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+
+}
+nav a{
+    text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #1f1e1d;
+	text-decoration: underline;
+}
