@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>NEWFLOAT Independent</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
 </head>
 <body>
     <header>
@@ -14,7 +18,7 @@
             <h1><img src="/images/NEW-FLOAT.png" class="imagem-header"></h1>
             <nav>
                 <ul>
-                    <li><a href="">BPM - BATE PAPO DE MERCADO</a></li>
+                    <li><a href="">BPM BATE-PAPO DE MERCADO</a></li>
                     <li><a href="">FAÇA PARTE</a></li>
                     <li><a href="">AMBIENTE</a></li>
                     <li><a href="">NOSSOS ROBÔS</a></li>           
@@ -23,14 +27,33 @@
         </div>
     </header>
     <main>
-       
 
-        <div>
-
-
-
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./images/swiper1.png" alt="Foto 01">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./images/swiper2.png" alt="Foto 02">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./images/swiper3.png" alt="Foto 03">
+                </div>
+              </div>
+            </div>
+          
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
-
     </main>
+    
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="script.js"></script>
 </body>
 </html>
