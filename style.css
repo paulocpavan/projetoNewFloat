@@ -54,3 +54,12 @@ nav a:hover {
 
 	text-decoration: underline;
 }
+.rodape {
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 12px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 200;
+}
