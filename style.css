@@ -10,14 +10,8 @@ header{
 .imagem-header{
     position: relative;
     padding: 5px;
-    width: 10%;
+    width: 150px;
     height: 5%;
-    margin: 0 0 0 10px;
-    border-radius: 10px;
-}
-.principal{
-    width: 1500px;
-    right: 200px;
 }
 nav{
     position: absolute;
@@ -41,13 +35,6 @@ nav a:hover {
 	text-decoration: underline;
 }
   
-  .principal {
-    justify-content: center;
-    background-size: cover;
-    box-shadow: 0 1px 2px #0003;
-    width: 600px;
-  }
- 
   .swiper {
     height: 400px;
     width: 950px; 
