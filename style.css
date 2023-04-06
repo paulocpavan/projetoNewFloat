@@ -1,17 +1,4 @@
-html{
-    width: 100%;
-    max-width: 100vw;
-    height: 100%;
-    padding: 0%;
-    margin: 0%;
-}
-
 body{
-    width: 100%;
-    max-width: 100vw;
-    height: 100%;
-    padding: 0%;
-    margin: 0%;
     background: linear-gradient(to left, rgb(67, 112, 63) 65%, rgb(153, 185, 153)100%);
     font-family: 'Montserrat', sans-serif;
 }
@@ -34,16 +21,16 @@ header{
 }
 nav{
     position: absolute;
-    top: 30px;
-    right: 220px;
+    top: 15px;
+    right: 60px;
 }
 nav li{
     display: inline;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 15px;
 
 }
 nav a{
-    text-transform: uppercase;
+  text-transform: uppercase;
 	color: #fff;
 	font-weight: bold;
 	font-size: 16px;
@@ -68,28 +55,36 @@ main {
   }
   
   img {
+    justify-content: center;
+    background-size: cover;
     box-shadow: 0 1px 2px #0003;
-    width: 100%;
+    width: 600px;
   }
  
   .swiper {
-    height: 500px;
-  }
+    height: 400px;
+    width: 600px;
+    }
   
   .swiper-slide {
+    background: #ccc;;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 1px black;
+    background-size: cover;
+ 
+  }
+  footer {
+    text-align: center;
+    padding: 40px 0;
+    width: 100%;
   }
   .rodape {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 12px;
     text-align: center;
-    font-family: var(--fonte-secundaria);
-    font-size: 16px;
     font-weight: 200;
 }
 h2 {

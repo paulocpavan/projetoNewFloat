@@ -1,6 +1,9 @@
-var swiper = new Swiper(".swiper", {
-    cssMode: true,
-    loop: true,
+const swiper = new Swiper('.swiper', {
+  loop: true,
+  effect: 'cube',
+  cubeEffect: {
+    slideShadows: false,
+  },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -9,5 +12,6 @@ var swiper = new Swiper(".swiper", {
       el: ".swiper-pagination",
     },
     keyboard: true,
+    
   });
   
