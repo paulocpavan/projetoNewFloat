@@ -40,21 +40,8 @@ nav a:hover {
 
 	text-decoration: underline;
 }
-main {
-    height: 100vh;
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-  }
   
-  span {
-    font-size: x-large;
-  }
-  
-  img {
+  .principal {
     justify-content: center;
     background-size: cover;
     box-shadow: 0 1px 2px #0003;
@@ -63,29 +50,33 @@ main {
  
   .swiper {
     height: 400px;
-    width: 600px;
+    width: 950px; 
+    position: absolute;
+    margin: 15px;
     }
   
   .swiper-slide {
-    background: #ccc;;
-    text-align: center;
+
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     background-size: cover;
+    font-size: 60x;
+    color: white;
  
   }
   footer {
     text-align: center;
-    padding: 40px 0;
-    width: 100%;
+    padding: 5px 0;
+ 
   }
   .rodape {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 12px;
     text-align: center;
-    font-weight: 200;
+
 }
 h2 {
 	color: #FFFFFF;

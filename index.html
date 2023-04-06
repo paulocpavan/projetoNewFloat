@@ -30,28 +30,26 @@
         </div>
   </header>
   <main>
-        <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="project-img">
-                  <img src="./images/swiper1.png" alt="Foto 01">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="project-img">
-                  <img src="./images/swiper2.png" alt="Foto 02">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="project-img">
-                  <img src="./images/swiper3.png" alt="Foto 03">
-                </div>
-              </div>
-            </div>       
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-        </div>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" style="background-image: url(./images/swiper1.png);">Slide 1</div>
+        <div class="swiper-slide" style="background-image: url(./images/swiper2.png);">Slide 2</div>
+        <div class="swiper-slide" style="background-image: url(./images/swiper3.png);">Slide 3</div>
+    
+
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
   </main>
  
   <div>
@@ -59,12 +57,13 @@
   </div>
 
   
+<footer class="rodape">
+    <h2 class="elementor-heading-title elementor-size-default">© Copyright NEWFLOAT Independent - 2023</h2>
+</footer>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 
-  <footer class="rodape">
-      <h2 class="elementor-heading-title elementor-size-default">© Copyright NEWFLOAT Independent - 2023</h2>
-  </footer>
 
 </body>
 </html>
