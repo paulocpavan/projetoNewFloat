@@ -1,26 +1,31 @@
 body{
-    background: linear-gradient(to left, rgb(67, 112, 63) 65%, rgb(153, 185, 153)100%);
+  height: 100vh;
+    background: linear-gradient(to left, rgb(64, 92, 69) 65%, rgb(29, 88, 29)100%);
     font-family: 'Montserrat', sans-serif;
 }
 header{
-    background: rgba(255, 255, 255, 0.274);
-    padding: 15px 0;
+  position: fixed;
+  top: 0;
+  padding: 25px;
 	width: 100%;
+  z-index: 10;
+
 }
 .imagem-header{
-    position: relative;
-    padding: 5px;
-    width: 150px;
-    height: 5%;
+  position: relative;
+  padding: 5px;
+  width: 150px;
+  height: 5%;
 }
 nav{
-    position: absolute;
-    top: 15px;
-    right: 60px;
+  position: absolute;
+  right: 20%;
+  top: 30px; 
+
 }
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 50px;
 
 }
 nav a{
@@ -29,51 +34,59 @@ nav a{
 	font-weight: bold;
 	font-size: 16px;
 	text-decoration: none;
+
 }
 nav a:hover {
 
 	text-decoration: underline;
 }
   
-  .swiper {
-    height: 400px;
-    width: 950px; 
-    position: absolute;
-    margin: 15px;
-    }
-  
-  .swiper-slide {
+.swiper {
+  height: 500px;
+  width: 950px; 
+  position: relative;
+  margin: 45px 25px ;
+  top: 200px;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-size: cover;
-    font-size: 60x;
-    color: white;
- 
-  }
-  footer {
-    text-align: center;
-    padding: 5px 0;
- 
-  }
-  .rodape {
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
-    padding: 12px;
-    text-align: center;
 
 }
-h2 {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
-}
   
-  @media (max-width: 450px) {
-    .swiper {
-      height: 270px;
-    }
-  }
+.swiper-slide {
+  display: flex !important;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 60px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.conteudo h3{
+  position: relative;
+  margin-top: 250px;
+
+}
+footer {
+  position: relative;
+  margin-top: 300px;
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+  bottom: 0px;
+  box-shadow: inset 0 0 30px #2f5034;
+ 
+}
+.Copyright {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 12px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin: 20px 0 0;
+
+} 
+
 
