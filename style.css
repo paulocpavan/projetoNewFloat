@@ -4,8 +4,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 header{
+<<<<<<< HEAD
   position: fixed;
   top: 0;
+=======
+  background: rgba(255, 255, 255, 0.274);
+>>>>>>> 6c8eed401e1091ea3be66ed712a97931205a9569
   padding: 25px;
 	width: 100%;
   z-index: 10;
@@ -19,22 +23,36 @@ header{
 }
 nav{
   position: absolute;
+<<<<<<< HEAD
   right: 20%;
   top: 30px; 
+=======
+  right: 33%;
+  top: 170px; 
+>>>>>>> 6c8eed401e1091ea3be66ed712a97931205a9569
 
 }
 nav li{
     display: inline;
+<<<<<<< HEAD
     margin: 0 50px;
 
+=======
+    margin: 15px 0 0 150px;
+>>>>>>> 6c8eed401e1091ea3be66ed712a97931205a9569
 }
 nav a{
   text-transform: uppercase;
 	color: #fff;
 	font-weight: bold;
 	font-size: 16px;
+  justify-content: space-between;
 	text-decoration: none;
+<<<<<<< HEAD
 
+=======
+  align-items: center;
+>>>>>>> 6c8eed401e1091ea3be66ed712a97931205a9569
 }
 nav a:hover {
 
@@ -44,16 +62,22 @@ nav a:hover {
 .swiper {
   height: 500px;
   width: 950px; 
+<<<<<<< HEAD
   position: relative;
   margin: 45px 25px ;
   top: 200px;
 
 
+=======
+  position: absolute;
+  margin: 15px;
+>>>>>>> 6c8eed401e1091ea3be66ed712a97931205a9569
 }
   
 .swiper-slide {
   display: flex !important;
   text-align: center;
+<<<<<<< HEAD
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-size: 60px;
@@ -71,11 +95,24 @@ nav a:hover {
 footer {
   position: relative;
   margin-top: 300px;
+=======
+  background-size: contain;
+  font-size: 180px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  position: absolute;
+>>>>>>> 6c8eed401e1091ea3be66ed712a97931205a9569
   text-align: center;
   padding: 5px 0;
   width: 100%;
   bottom: 0px;
+<<<<<<< HEAD
   box-shadow: inset 0 0 30px #2f5034;
+=======
+>>>>>>> 6c8eed401e1091ea3be66ed712a97931205a9569
  
 }
 .Copyright {
