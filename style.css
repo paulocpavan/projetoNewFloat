@@ -28,7 +28,9 @@ nav a{
 	color: #fff;
 	font-weight: bold;
 	font-size: 16px;
+  justify-content: space-between;
 	text-decoration: none;
+  align-items: center;
 }
 nav a:hover {
 
