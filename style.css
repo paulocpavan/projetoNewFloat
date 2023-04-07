@@ -3,25 +3,25 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 header{
-    background: rgba(255, 255, 255, 0.274);
-    padding: 15px 0;
+  background: rgba(255, 255, 255, 0.274);
+  padding: 25px;
 	width: 100%;
 }
 .imagem-header{
-    position: relative;
-    padding: 5px;
-    width: 150px;
-    height: 5%;
+  position: relative;
+  padding: 5px;
+  width: 150px;
+  height: 5%;
 }
 nav{
-    position: absolute;
-    top: 15px;
-    right: 60px;
+  position: absolute;
+  right: 33%;
+  top: 170px; 
+
 }
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
-
+    margin: 15px 0 0 150px;
 }
 nav a{
   text-transform: uppercase;
@@ -35,45 +35,39 @@ nav a:hover {
 	text-decoration: underline;
 }
   
-  .swiper {
-    height: 400px;
-    width: 950px; 
-    position: absolute;
-    margin: 15px;
-    }
-  
-  .swiper-slide {
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-size: cover;
-    font-size: 60x;
-    color: white;
- 
-  }
-  footer {
-    text-align: center;
-    padding: 5px 0;
- 
-  }
-  .rodape {
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
-    padding: 12px;
-    text-align: center;
-
-}
-h2 {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+.swiper {
+  height: 500px;
+  width: 950px; 
+  position: absolute;
+  margin: 15px;
 }
   
-  @media (max-width: 450px) {
-    .swiper {
-      height: 270px;
-    }
-  }
+.swiper-slide {
+  display: flex !important;
+  text-align: center;
+  background-size: contain;
+  font-size: 180px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+  bottom: 0px;
+ 
+}
+.Copyright {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 12px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin: 20px 0 0;
+
+} 
+
 
