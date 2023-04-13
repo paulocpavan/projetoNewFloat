@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/NEW-FLOAT.png">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>NEWFLOAT Independent</title>
@@ -15,61 +16,71 @@
 </head>
   <body>
     <header>
-          <div class="header-principal">
-              <img src="/images/newfloat-5.jpg" class="imagem-header">
-              <nav>
-                  <ul>
-                      <li>BATE-PAPO DE MERCADO</li>
-                      <li>FAÇA PARTE</li>
-                      <li>COTAÇÔES</li>  
-                      <li>AMBIENTE</li>
-                      <li>NOSSOS ROBÔS</li>
-                      <li>MEMES FINTWIT</li>            
-                  </ul>
-              </nav>
-          </div>
+      <nav>
+          <ul class="menu">
+            <li class="menu_item">
+              <h1 class="menu_titulo"></h1>
+            </li>
+            <img src="/images/newfloat-5.jpg" class="imagem-header">
+            <li class="menu_item">BATE-PAPO DE MERCADO</li>
+            <li class="menu_item">FAÇA PARTE</li>
+            <li class="menu_item">COTAÇÔES</li>  
+            <li class="menu_item">AMBIENTE</li>
+            <li class="menu_item">NOSSOS ROBÔS</li>
+            <li class="menu_item">MEMES FINTWIT</li>   
+                  
+            <li class="menu__item menu__pesquisar">
+              <label class="menu__label" for="pesquisar"><input class="menu__input" type="search" name="" placeholder="O que você procura?"
+              id="pesquisar"></label></li>
+          </ul>
+        </nav>
     </header>
-    <main>
-      <div class="swiper">
-    
-        <div class="swiper-wrapper">
+    <main class="principal">
+      <section class="banner_swiperPrincipal">
 
-          <div class="swiper-slide" style="background-image: url(./images/newfloat2.jpg);"></div>
-          <div class="swiper-slide" style="background-image: url(./images/newfloat9.png);"></div>
-          <div class="swiper-slide" style="background-image: url(./images/newfloat6.jpg);"></div>
-          <div class="swiper-slide" style="background-image: url(./images/newfloa4.jpg);"></div>
-          <div class="swiper-slide" style="background-image: url(./images/BPM.gif);"></div>
+        <div class="swiper">
+      
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image: url(./images/newfloat2.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./images/newfloat9.png);"></div>
+            <div class="swiper-slide" style="background-image: url(./images/newfloat6.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./images/newfloa4.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(./images/BPM.gif);"></div>
+
+          </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
 
         </div>
-
-        <div class="swiper-pagination"></div>
-      
-
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      
-
-        <div class="swiper-scrollbar"></div>
-      </div>
+      </section>
+   
+      <section class="corpo"> 
+        <div class="conteudo-container">
+          <div class="texto-container">
+            <h1 class="conteudo-principal">Desenvolvido para compartilhar conhecimento, a NEWFLOAT, vem para quebrar paradigmas e permitir <strong> o compartilhamento de conhecimento de DayTrade free!</strong></h1>
+            <p class="conteudo-principal2">Está interessado em desenvolver suas habilidades de trader e compartilhar 
+              e adquirir conhecimento? Então a NEWFLOAT foi feita pra você. <strong> Está interessado? 
+                Clique em <a href="https://www.google.com.br/"> Faça Parte</strong></a></p>
+          </div>
+          <img src="./images/newfloat1.jpg" alt="imagem de graficos" class="imagem-secundaria">
+        </div>
+      </section>
     </main>
-  
-    <div class="conteudo">
-       <h1 class="conteudo-principal">Desenvolvido para compartilhar conhecimento, a NEWFLOAT Independent, vem para quebrar paradigmas e permitir
-        <strong> compartilhar conhecimento free!</strong></h1>
-      <p>Olá! Está interessado em desenvolver suas habilidades de trader e compartilhar e adquirir conhecimento? 
-          Então a NEWFLOAT foi feita pra você.
-      <strong> Está interessado? Acesse Faça Parte</strong>
-      <img src="./images/newfloat1.jpg" alt="imagem de graficos" class="imagem-secundaria">
-
-    </div>
-
-    
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script src="script.js"></script>
-    
     <footer class="rodape">
+     
         <img src="./images/NFI_FundoNegro-PhotoRoom.png">
+      <div class="rodapepe_logo">
         <p class="Copyright">&copy; Copyright NEWFLOAT Independent - 2020</p>
-    </footer>
-  </body>
+      </div>  
+      </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
 </html>

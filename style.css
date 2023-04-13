@@ -1,7 +1,7 @@
 body{
 
     background: linear-gradient(to right, rgb(66, 65, 65) 65%, rgb(17, 17, 17)100%);
-    font-family: 'Montserrat', sans-serif;
+
     min-width: 100%;
     margin: 2px;
     padding: 2px;
@@ -21,19 +21,27 @@ header{
   box-shadow: 10px 10px 15px 20px #000000, 10px 10px #070404, -20px 20px rgba(107, 105, 105, 0.55);
 }
 
-ul{
+.menu{
 
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 5px;
 }
- li{
+.menu :hover{
+  text-decoration: underline;
+}
+.menu_item{
   
   color: white;
   text-decoration: none;
   list-style-type: none;
 }
+
+.menu__label{
+  color: #000000;
+}
+
 .swiper {
 
   height: 500px;
@@ -55,33 +63,68 @@ ul{
   width: 100%;
 }
 
-.conteudo-principal, p{
 
-  line-height: 35px;
+.conteudo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.texto-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.corpo{
+  width: 100%;
+  background-color: #000000;
+  margin: 190px 20px 20px 0px;
+  box-shadow: 10px 10px 15px 20px #000000, 10px 10px #070404, -20px 20px rgba(107, 105, 105, 0.55);
+}
+.conteudo-principal {
+
+  min-width: 150px;
+  max-width: 600px;
+  justify-content: center;
+  font-size: 45px;
+  margin:  5px 5px 5px 80px;
+  line-height: 50px;
   justify-content: center;
   align-items: center;
-  max-width: 350px;
-  margin: 80px;
-  line-height: 30px;
-  font-size: 22px;
-  line-height: 35px;
+}
+.conteudo-principal strong{
+  color: #22D4FD;
+  height: bold;
+}
+.conteudo-principal2 {
+
+  min-width: 90px;
+  max-width: 600px;
+  font-size: 30px;
+  margin:  120px 5px 5px 80px;
+  line-height: 50px;
+  justify-content: center;
+  align-items: center;
 
 }
 
-strong{
-  color: aqua;
-  position: ab;
+.conteudo-principal2 strong{
+  color: #22D4FD;
+  height: bold;
 }
-.imagem-secundaria{
-  position: absolute;
-  width: 60%;
-  margin: 5px 5px 5px 420px;
-  justify-content: center;
-  align-items: center;
+a{
+  text-decoration: underline;
+}
+.imagem-secundaria {
+  margin: 0 0 0 0;
+  width: 50%;
   border-radius: 15px;
+  justify-content: center;
+  align-items: center;
 }
+
 footer, .imagem-rodape {
-  position: relative;
+
   background-image: url(./images/bg.jpg);
 	padding: 15px 0;
 	width: 100%;
