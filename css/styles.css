@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body { 
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(164, 167, 170) !important
+}
+#container {
+	flex: 1 0 auto; 
+	padding-bottom: 20px;
+	
+}
+#container img{
+	width: 30px;
+	margin: 5px 5px 5px 5px;
+}
+#search {
+	padding: 10px 0px 10px 20px;
+	background-color: #DBDBDB;	
+	margin: ;
+}
+
+#error {
+	background-color: red;
+	color: yellow;
+	padding: 10px 0px 10px 20px;
+	display: none;
+}
+h1 {
+	font-size: 16px !important;
+	text-align:  center;
+	margin: 15px;
+}
+.cotacao {
+	margin: 5px 0 0 0;
+	font-size: 12px;
+}
+h1 a{
+	text-decoration: underline;
+}
+.input-width {
+	width: 180px !important;
+}
+
+#wrapper {
+	display: flex;	
+	flex-direction: row;
+	margin-top: 30px;	
+}
+
+.table {
+	text-align: center;
+}
+
+.table-div {
+	padding: 10px 10px 10px 10px;
+	width: 35%;	
+	border: 1px solid #000;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.column-chart {
+	width: 65%;
+	height: 300px;
+	border: 1px solid #000;
+	margin-right: 20px;
+}
+
+.line-chart {	
+	height: 300px;	
+	border: 1px solid #000;
+	padding: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+#page-footer {	
+	background-color: #3a040d;
+	text-align: center;
+	color: #fff;	
+	flex-shrink: 0; 
+	padding: 20px;
+}
+
+/* -------------- About page ---------------------*/
+
+.about-content{
+	margin: 30px 30px 30px 30px;
+}
+
+h3 {
+	margin: 30px 30px 30px 30px;
+	padding-top: 50px;
+}

@@ -27,6 +27,7 @@ header{
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 5px;
+  
 }
 .menu :hover{
   text-decoration: underline;
@@ -63,7 +64,12 @@ header{
   width: 100%;
 }
 
-
+.consulta-lista{
+  text-decoration: underline;
+}
+.menu-cotacao{
+  text-decoration: none;
+}
 .conteudo-container {
   display: flex;
   flex-direction: row;
@@ -112,9 +118,7 @@ header{
   color: #22D4FD;
   height: bold;
 }
-a{
-  text-decoration: underline;
-}
+
 .imagem-secundaria {
   margin: 0 0 0 0;
   width: 50%;
