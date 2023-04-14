@@ -1,20 +1,17 @@
 body{
 
     background: linear-gradient(to right, rgb(66, 65, 65) 65%, rgb(17, 17, 17)100%);
-
+    min-height: 100vh;
     min-width: 100%;
     margin: 2px;
     padding: 2px;
-    min-height: 100vh;
+
     color: #FFFFFF;
 }
 header{
-
   margin: 2px;
-
 }
 .imagem-header{
-
   width: 100%;
   max-height: 50%;
   height: 290px;
@@ -22,12 +19,10 @@ header{
 }
 
 .menu{
-
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 5px;
-  
 }
 .menu :hover{
   text-decoration: underline;
@@ -47,7 +42,7 @@ header{
 
   height: 500px;
   width: 90%; 
-  margin: 40px 5px;
+  margin: 0 0 0 5px;
   margin-top: 90px;
 }
   
@@ -71,6 +66,7 @@ header{
   text-decoration: none;
 }
 .conteudo-container {
+  margin: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -92,8 +88,8 @@ header{
   min-width: 150px;
   max-width: 600px;
   justify-content: center;
-  font-size: 45px;
-  margin:  5px 5px 5px 80px;
+  font-size: 32px;
+  margin:  5px 5px 5px 5px;
   line-height: 50px;
   justify-content: center;
   align-items: center;
@@ -107,32 +103,29 @@ header{
   min-width: 90px;
   max-width: 600px;
   font-size: 30px;
-  margin:  120px 5px 5px 80px;
+  margin:  120px 5px 5px 5px;
   line-height: 50px;
   justify-content: center;
   align-items: center;
 
 }
-
 .conteudo-principal2 strong{
   color: #22D4FD;
   height: bold;
 }
-
 .imagem-secundaria {
   margin: 0 0 0 0;
   width: 50%;
+  height: 550px;
   border-radius: 15px;
   justify-content: center;
   align-items: center;
 }
 
 footer, .imagem-rodape {
-
   background-image: url(./images/bg.jpg);
 	padding: 15px 0;
 	width: 100%;
-  margin-top: 600px;
   text-align: center;
 }
 .Copyright {
@@ -141,6 +134,58 @@ footer, .imagem-rodape {
   text-align: center;
   font-size: 12px;
   color: white;
+
 } 
 
+@media (max-width: 800px){
+  .conteudo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    }
+
+  .corpo{
+  display: flex;
+  grid-column: wrap;
+  column-gap: 1.5rem;
+  }
+  .texto-container {
+    width: 100%;
+    max-width: 600px; /* ajuste o valor conforme necessário */
+  }
+.conteudo-principal{
+  min-width: 250px;
+  margin: 0 0 0 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 26px;
+  line-height: 35px;
+}
+.conteudo-principal2{
+  min-width: 250px;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+}
+.imagem-secundaria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  margin: 0 0 0 0;
+  width: 50%;
+  height: 600px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px; /* ajuste o valor conforme necessário */
+}
+}
 
