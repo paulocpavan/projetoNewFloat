@@ -46,6 +46,7 @@ h1 a{
 }
 .input-width {
 	width: 180px !important;
+	text-align: center;
 }
 
 #wrapper {
@@ -97,4 +98,7 @@ h1 a{
 h3 {
 	margin: 30px 30px 30px 30px;
 	padding-top: 50px;
+}
+footer{
+	background-image: url(./images/bg.jpg);
 }

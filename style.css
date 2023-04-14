@@ -1,12 +1,10 @@
 body{
-
-    background: linear-gradient(to right, rgb(66, 65, 65) 65%, rgb(17, 17, 17)100%);
-    min-height: 100vh;
-    min-width: 100%;
-    margin: 2px;
-    padding: 2px;
-
-    color: #FFFFFF;
+  background: linear-gradient(to right, rgb(66, 65, 65) 65%, rgb(17, 17, 17)100%);
+  min-height: 100vh;
+  min-width: 100%;
+  margin: 2px;
+  padding: 2px;
+  color: #FFFFFF;
 }
 header{
   margin: 2px;
